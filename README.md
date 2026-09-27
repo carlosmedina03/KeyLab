@@ -1,8 +1,10 @@
 # 🔐 KeyLab
 
+**🔗 URL en vivo:** [https://keylab-8qtg.onrender.com/](https://keylab-8qtg.onrender.com/)
+
 **KeyLab** es un generador algorítmico de contraseñas basado en Leet Speak y un evaluador de entropía reactivo en tiempo real. Construido con React y Vite, esta herramienta te ayuda a crear y validar contraseñas seguras mitigando vectores de ataque por fuerza bruta y diccionarios, cumpliendo con los estándares de ciberseguridad (OWASP).
 
-## ✨ Características Principales
+## Características Principales
 
 *   **Motor de Generación Leet Speak**:
     *   Genera 3 niveles de contraseñas a partir de una frase base.
@@ -18,21 +20,14 @@
 *   **Interfaz Premium UI/UX**:
     *   Diseño moderno utilizando Glassmorphism, tonos azul oscuro (Navy/Electric Blue) y tipografías modernas.
 
-## 🚀 Tecnologías
+## Tecnologías
 
 *   **Frontend Framework**: React 19
 *   **Build Tool**: Vite
 *   **Estilizado**: Vanilla CSS con Custom Properties (Variables)
 *   **Tipografía**: Inter y JetBrains Mono (Google Fonts)
 
-## 🛠️ Desarrollo y Scripts
-
-*   `npm run dev` - Inicia el servidor de desarrollo con Vite (HMR).
-*   `npm run build` - Genera el empaquetado de producción en la carpeta `dist/`.
-*   `npm run preview` - Inicia un servidor local para previsualizar el build de producción.
-*   `npm run lint` - Ejecuta la verificación de código utilizando Oxlint.
-
-## 🛡️ Seguridad y Consideraciones
+## Seguridad y Consideraciones
 
 *   La generación de fragmentos aleatorios utiliza la API criptográfica nativa del navegador (`crypto.getRandomValues`).
 *   Implementa un *fallback* seguro en caso de que los permisos para copiar al portapapeles (`navigator.clipboard`) sean denegados por el navegador del cliente.
